@@ -1,11 +1,26 @@
-#encabezado {
-	margin: 0px;
+html, body {
+  height: 100%;
 }
 
-div .container {
-	margin: auto;
-	padding-right: 30px;
-	
+#footer {
+	background: #89E894;
+	width: 100%;
+	height: 50px;
+	color: white;
+}
+
+#left {
+    width: 60%;
+    float: left;
+}
+
+#right {
+    width: 30%;
+    float: right;
+}
+
+#encabezado {
+	margin: 0px;
 }
 
 #logo {
@@ -17,17 +32,12 @@ div .container {
 	float: right;
 }
 
-p { 
-	padding:15px 50px 15px 5px;
+
+div .container {
+	margin: auto;
+	padding-right: 30px;
+	
 }
-
-
-}
-
-h1 {padding: 5px 10px;
-
-}
-
 
 div .slidecontainer {
   width: 50%;
@@ -35,15 +45,5 @@ div .slidecontainer {
   padding-bottom: 50px;
 
 }
-
-.readmore {
-	border-style: solid;
-	border background: black;
-	color: black;
-	border-radius: 5px;
-	float:right;
-	padding: 3px;
-		
-}
-	    
+   
 
