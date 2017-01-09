@@ -2,19 +2,31 @@
 <html>
     <head>
           <title>Prueba</title>
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
           <Link rel="stylesheet" href= "main.css">
-         
+          
     <!-- Latest compiled and minified CSS -->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+          
+
+          <link rel="stylesheet" href="flexslider2/css/flexslider.css" type="text/css" media="screen" />
+          <link rel="stylesheet" href="flexslider2/font-awesome/css/font-awesome.min.css"> 
+          <Link rel="stylesheet" href= "custom.css"> 
+          
+
+
 
     </head>
-    
-    <div class="container">
     <body>
-		
-			<div id = "encabezado" class="panel panel-default">
+    <header>
+    <div class="container">
+   
+    
+      <div id = "encabezado" class="panel panel-default">
           <div class="panel-body">
 
             <div id="logo">
@@ -22,69 +34,238 @@
             </div> 
 
             <button id="logIn" class="btn btn-default navbar-btn">  
-              Sign in
-            </button>
-
+              Sign in</button>
+    
           </div>
       </div>
 
-      <header class="navbar-default" role="banner">
-			 <div class="container">
-          <div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<!-- No estoy poniendo Join us para ver contigo, tampoco lel acceso al foro porque me imagino que te tienes que "loguear" para luego ingresar al foro -->
-  					<div class="navbar-header">
-  						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-  						</button>
-  						<a class="navbar-brand" href="#">Home</a>
-  					</div>
+     </header>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="page2.html">¿Quiénes somos? <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Revista Amarum</a></li>
-								<li><a href="#">Agenda</a></li> 
-								<li class="dropdown">
-						          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué hacemos? <span class="caret"></span></a>
-						          <ul class="dropdown-menu">
-						            <li><a href="#">Ciencia</a></li>
-						            <li><a href="#">Academia</a></li>
-						            <li><a href="#">Divulgación</a></li>
-						            <li role="separator" class="divider"></li>
-						            <li><a href="#">Eventos</a></li>
-						            <li role="separator" class="divider"></li>
-						            <li><a href="#">Red de contactos</a></li>
-						          </ul>
-                </li>
-						  </ul>					      						     
-						</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-      </header>
-									
-				
-      <ul class="rslides">
-          <li><img src="foto1.jpg" alt=""></li>
-          <li><img src="foto2.jpg" alt=""></li>
-          <li><img src="foto2.jpg" alt=""></li>
-      </ul>
+     <div class="container">
+     <div id = "nav">
+     <nav class="navbar navbar-default">
+     <div class="container">
+         
 
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        
-        <script src="responsiveslides.min.js"></script>
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" <data-target>            </data-target>="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"            aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"            aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
 
-        <script>
-          $(function() {
-            $(".rslides").responsiveSlides();
-          });
-        </script>
 
-				<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+
+
+        </div><!-- / .container -->
+        </nav>
+        </div> <!-- / .nav --> 
+
+
+            <div class ='slidecontainer'>
+
+              <section class="slider">
+                <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <img src = "flexslider2/images/slide1.jpg" />
+                        <p class = "flex-caption "><a href="http://www.amarun.net/">Topology Ecuador 2017 y EMALCA Conferencia:</a></p>
+                      </li>
+                      <li>
+                        <img src="flexslider2/images/slide1.jpg" />
+                        <p class="flex-caption "><a href="http://www.amarun.net/">Topology Ecuador 2017 y EMALCA Conferencia:</a></p>
+                      </li>
+                      <li>
+                        <img src="flexslider2/images/mountainwllpaper.jpg" />
+                        <p class="flex-caption "><a href="http://www.amarun.net/">Topology Ecuador 2017 y EMALCA Conferencia:</a></p>
+                      </li>
+                      <li>
+                        <img src="flexslider2/images/slide1.jpg" />
+                        <p class="flex-caption "><a href="http://www.amarun.net/">Topology Ecuador 2017 y EMALCA Conferencia:</a></p>
+                      </li>
+                    </ul>
+                  </div>
+                </section> <!-- slider -->
+
+              </div> <!-- slide container --> 
+
+      <div id = "left">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="thumbnail">
+              <div class="hour">Tema1</div>
+                <div class="headline"> Artículo 1</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <div class="hour">Tema2</div>
+                <div class="headline"> Artículo 2</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <div class="hour">Tema3</div>
+                <div class="headline"> Artículo 3</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <div class="hour">Tema 4</div>
+                <div class="headline"> Artículo 4</div>
+            </div>
+          </div> 
+
+        </div><!-- /.row -->
+      </div> <!-- left -->
+
+      <div id = "right">
+        <div class="row"> 
+
+          <div class="hidden-xs col-md-12">
+            <div class="thumbnail">
+              <div class="hour">Tema</div>
+                <div class="headline"> Info </div>
+            </div>
+          </div>
+
+        </div> <! -- /.row -->
+      </div> <!-- right -->
+
+      </div> <!-- container menos footer -->
+
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              Cosas footer 1
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              Cosas footer 2
+            </div>
+          </div>
+        </div>
+      </div> <!-- footer -->
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                   
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  	
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+
+
+                       <!-- jQuery para slider -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+      <!-- FlexSlider -->
+      <script defer src="flexslider2/js/jquery.flexslider.js"></script>
+
+      <script type="text/javascript">
+        $(function(){
+            SyntaxHighlighter.all();
+          });
+      
+        $(window).load(function(){
+          $('.flexslider').flexslider({
+              animation: "slide",
+              start: function(slider){
+                $('body').removeClass('loading');
+              }
+              });
+        });
+
+      </script>
 
   </body> 
-  </div>
+  
 </html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
